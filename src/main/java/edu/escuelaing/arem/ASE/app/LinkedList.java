@@ -77,4 +77,8 @@ public class LinkedList<T>{
         }
     }
 
+    public void clean(){
+        this.head=null;
+    }
+
 }
