@@ -10,7 +10,7 @@ In order to install the program you must download the repository trough the next
 
 ## Use
 
-The program has 2 archives **entry.txt** and **entry2.txt**, you can put your own entrys.
+The program has 2 archives **entry.txt** and **entry2.txt** located in the inputFolder, you can put your own entrys.
 For execute the program run the next command in the cmd:
 ```batch
 $ mvn exec:java -Dexec.mainClass="edu.escuelaing.arem.ASE.app.CalcApplication"
