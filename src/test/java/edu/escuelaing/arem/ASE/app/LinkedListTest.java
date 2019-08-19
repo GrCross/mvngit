@@ -42,24 +42,24 @@ public class LinkedListTest
     
     public void testMeans() throws FileNotFoundException{
         
-        File file = new File(".\\entry.in"); 
+        File file = new File("entryTest1.in"); 
         Calc calc = new Calc(file);
 
         assertEquals(550.6, calc.mean());
 
-        file = new File(".\\entry2.in"); 
+        file = new File("entryTest2.in"); 
         calc.setFile(file);
 
         assertEquals(60.32, calc.mean());
     }
 
     public void testDesviation() throws FileNotFoundException{
-        File file = new File(".\\entry.in"); 
+        File file = new File("entryTest1.in"); 
         Calc calc = new Calc(file);
 
         assertEquals(572.03, calc.desviation());
 
-        file = new File(".\\entry2.in"); 
+        file = new File("entryTest2.in"); 
         calc.setFile(file);
 
         assertEquals(62.26, calc.desviation());
