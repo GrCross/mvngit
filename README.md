@@ -25,6 +25,7 @@ In order to execute the Tests run the next comand:
 ````
 $ mvn package
 ````
+Los archivos que tomara para las pruebas son **entryTest1.in** and **entryTest2.in**.
 
 
 
